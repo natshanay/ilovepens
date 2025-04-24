@@ -11,7 +11,7 @@ export async function POST(req ) {
     
     
     if (evt.type === 'user.created') {
-        console.log('userId:', evt.data.id)
+        console.log('userId')
       }
     if (evt.type === 'user.updated') {
         console.log('userId:', evt.data.id)
