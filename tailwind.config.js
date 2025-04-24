@@ -7,9 +7,7 @@ export default {
     ],
     theme: {
       extend: {
-        backgroundImage:{
-"home":'url(/images/nata.png)' 
-        },
+       
         colors: {
           background: 'url(--background)',
           foreground: 'var(--foreground)',
